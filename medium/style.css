@@ -1,0 +1,350 @@
+* {
+    Margin: 0;
+    Padding: 0;
+    Box-sizing: border-box;
+}
+
+/* HEADER */
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: -20px;
+}
+
+.logo .medium {
+    width: 200px;
+    height: auto;
+    margin-left: 100px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.navigation .icon-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 150px;
+}
+
+.navigation .search,
+.navigation .bookmark,
+.navigation .bell {
+    width: 100px;
+    height: 25px;
+    margin-right: 5px;
+    gap: 5px;
+
+}
+
+.navigation .box {
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation .profile {
+    background-color: rgb(0, 164, 33);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* MAIN */
+/* codice di stile dei post pubblicati dagli utenti con un immagine di preview.
+collocato sulla parte destra dello schermo*/
+main {
+    background-color: rgb(245, 245, 245);
+    margin-top: 30px;
+}
+
+.total-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navigation-text {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation-text .for-you {
+    margin-left: 50px;
+    border-bottom: 1px solid black;
+}
+
+
+.navigation-text {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 830px;
+    border-bottom: 1px solid rgb(210, 210, 210);
+
+}
+
+.container-content {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container-content .navigation-text {
+    display: flex;
+
+}
+
+.posted-by {
+    display: flex;
+    align-items: center;
+}
+
+.posted-by .icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: blueviolet;
+}
+
+.container-content .id .text {
+    margin-left: 10px;
+}
+
+.title-and-text {
+    height: auto;
+    width: 500px;
+}
+
+.container-content .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+}
+
+.container-content .info ul {
+    display: flex;
+    align-items: center;
+}
+
+.container-content .info li {
+    margin-right: 25px;
+}
+
+.container-content .info li:first-child {
+    list-style: none;
+}
+
+.container-content .info .recommended {
+    background-color: rgb(210, 210, 210);
+    border-radius: 20px;
+    padding: 5px;
+
+}
+
+.container-content .icon {
+    display: flex;
+}
+
+.container-content .icon .more {
+    height: 50px;
+    width: 50px;
+}
+
+.container-content .content-image-preview {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: grey;
+}
+
+/* codice di stile riguardande la connessione con twitter + tag + suggerimenti sulle pagine da seguire.
+collocato sulla parte destrc adello schermo */
+.total-container .container-right {
+    margin-left: 1100px;
+    margin-top: -1450px;
+    margin-bottom: 1500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    height: auto;
+}
+
+.logo-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo-right .medium,
+.twitter {
+    height: 50px;
+    width: 50px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px 30px 10px 30px;
+    border-radius: 25px;
+}
+
+.btn:hover {
+    background-color: rgb(27, 183, 255);
+}
+
+.btn .twitter-connect {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.container-right .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-right .text .text-right {
+    margin-bottom: 20px;
+
+}
+
+.container-right .text .link {
+    margin-top: 20px;
+    color: gray;
+
+}
+
+.container-right .title {
+    margin-left: -80px;
+}
+
+.line {
+    border-bottom: 1px solid rgb(210, 210, 210);
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.btn-tag {
+    margin-top: 20px;
+}
+
+.btn-tag .tag {
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgb(210, 210, 210);
+    margin: 5px;
+    border: none;
+}
+
+.profile-and-follow {
+    margin-top: 50px;
+}
+
+.container-follow .people {
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+
+}
+
+.container-follow .people .container-img-profile {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: blueviolet;
+
+}
+
+.container-follow .people .name,
+.container-img-profile {
+    display: flex;
+}
+
+.container-follow .btn-follow {
+    padding: 10px;
+    border-radius: 25px;
+    background-color: transparent;
+    margin-left: 50px;
+}
+
+.container-follow .container-info .name,
+.profession {
+    margin-left: 20px;
+}
+
+.extra {
+    width: 500px;
+    margin-top: 50px;
+
+}
+
+.account .box-img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    margin-right: 20px;
+}
+
+.extra .name-and-photo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.extra .info-read ul {
+    display: flex;
+    margin-top: 10px;
+}
+
+.extra .info-read li:first-child {
+    list-style: none;
+    margin-right: 30px;
+}
+
+
+.other {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    color: green;
+}
+
+.other-tag ul {
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+
+.other-tag li {
+    list-style: none;
+
+}
